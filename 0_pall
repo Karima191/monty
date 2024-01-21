@@ -1,0 +1,11 @@
+#include "monty.h"
+
+/**
+ * pall - prints stack
+ * @st: stack given by main in start.c
+ * @amt: amount of lines
+ */
+void pall(stack_t **st, unsigned int amt __attribute__((unused)))
+{
+	printstk(*st);
+}
